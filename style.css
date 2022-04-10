@@ -1,0 +1,132 @@
+:root {
+    --botao-cor: #272124;
+    --corpo-cor: #090909;
+    --font-cor-botao: #b9f621;
+    --font-cor: #ffff9d;
+    --fundo-cor: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(14, 2, 61, 1) 35%, rgba(0, 0, 0, 1) 100%);
+    --font-botao-size: 5rem;
+    --tela-cor: #3d6341;
+
+}
+
+* {
+    background-image: url('images/fundo.png');
+    margin: 0;
+    padding: 0;
+    color: var(--font-cor);
+    font-size: 62%;
+    text-align: center;
+
+
+
+}
+
+body {
+    margin: 0;
+
+}
+
+.corpo {
+    margin-left: 40%;
+    padding-left: 3%;
+    width: 20%;
+    background: var(--corpo-cor);
+    font-size: 3rem;
+    border-radius: 30px;
+    position: absolute;
+
+
+
+}
+
+#resultado {
+    border: solid #272124 1px;
+    height: 40px;
+    background: var(--tela-cor);
+    width: 80%;
+    border-radius: 8%;
+    text-align: right;
+    font-size: 2.9rem;
+    position: absolute;
+
+}
+
+.botao {
+    font-size: var(--font-botao-size);
+    cursor: pointer;
+
+}
+
+button {
+
+    width: 50px;
+    color: var(--font-cor-botao);
+    background: var(--botao-cor);
+    margin: 2px;
+
+
+}
+
+button:hover {
+    background: #2F4F4F;
+}
+
+table {
+
+    background: var(--corpo-cor);
+}
+
+td,
+tr {
+    background: var(--corpo-cor);
+}
+
+@media only screen and (min-width: 200px) and (max-width: 767px) {
+    * {
+        background: rgb(255, 107, 107);
+        background: linear-gradient(90deg, rgba(255, 107, 107, 0.7315301120448179) 11%, rgba(255, 0, 0, 0.9500175070028011) 100%, rgba(0, 212, 255, 1) 100%);
+        margin: 0;
+        padding: 0;
+        color: var(--font-cor);
+        font-size: 62%;
+        text-align: center;
+
+
+
+
+    }
+
+
+
+    .corpo {
+        margin-left: 10%;
+        padding-left: 7%;
+        width: 80%;
+
+        font-size: 3rem;
+        border-radius: 10%;
+        position: absolute
+    }
+
+    #resultado {
+        border: solid #272124 1px;
+        height: 40px;
+        background: var(--tela-cor);
+        width: 80%;
+        border-radius: 8%;
+        text-align: right;
+
+
+    }
+
+    button {
+
+        width: 100%;
+        color: var(--font-cor-botao);
+        background: var(--botao-cor);
+        margin: 3%;
+
+    }
+
+
+}
