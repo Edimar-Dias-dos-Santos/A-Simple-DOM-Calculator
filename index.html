@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Calculadora_Edimar feita com CSS, HTM e JavaScript">
+    <meta name="keywords" content="Calculadora, CALCULADORA, calculadora">
+    <meta name="author" content="Edimar Dias dos Santos">
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+    <title>CalculadoraEdimar</title>
+</head>
+
+<body>
+    <h1 style="font-size:2.4rem; font-family:console;  color: #00FFFF;">Calculadora do Edimar</h1>
+
+    <div class="corpo" style="margin-top:40px;">
+        <br>
+
+        <div id="resultado"></div><br><br>
+        <table>
+            <tr>
+                <td><button class="botao" onclick="limpaTudo()">C</button></td>
+                <td><button class="botao" onclick="apagaUm()">
+                        << /button>
+                </td>
+                <td><button class="botao" onclick="getValue('/')">/</button></td>
+                <td><button class="botao" onclick="getValue('*')">X</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="getValue('7')">7</button></td>
+                <td><button class="botao" onclick="getValue('8')">8</button></td>
+                <td><button class="botao" onclick="getValue('9')">9</button></td>
+                <td><button class="botao" onclick="getValue('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="getValue('4')">4</button></td>
+                <td><button class="botao" onclick="getValue('5')">5</button></td>
+                <td><button class="botao" onclick="getValue('6')">6</button></td>
+                <td><button class="botao" onclick="getValue('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="getValue('1')">1</button></td>
+                <td><button class="botao" onclick="getValue('2')">2</button></td>
+                <td><button class="botao" onclick="getValue('3')">3</button></td>
+                <td><button class="botao" onclick="calcular()">=</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="getValue('0')">0</button></td>
+                <td colspan="3"><button class="botao" style="width: 160px;" onclick="getValue('.')">.</button></td>
+            </tr>
+        </table><br>
+
+    </div>
+</body>
+
+</html>
