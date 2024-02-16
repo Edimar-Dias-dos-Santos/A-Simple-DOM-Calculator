@@ -10,6 +10,6 @@ Welcome to CalculadoraEdimar, a straightforward calculator project leveraging th
 
 ## Access the Project:
 
-Experience CalculadoraEdimar in action by clicking [here](https://edimar-dias-dos-santos.github.io/calculadora/).
+Experience CalculadoraEdimar in action by clicking [here](https://edimar-dias-dos-santos.github.io/A-Simple-DOM-Calculator/).
 
 Whether you're a student, professional, or math enthusiast, CalculadoraEdimar offers a reliable tool for quick calculations. Try it now and streamline your math tasks with ease!
